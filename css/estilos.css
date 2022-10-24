@@ -1,0 +1,131 @@
+
+@font-face {font-family:'Roboto';
+    src:url('../fonts/Roboto-Regular.ttf') format("truetype");}
+    
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.LogoFarmacia img{
+    width: 300px;
+    margin: 10px;
+    }
+
+
+.LineaFinaVerde 
+{
+background-color:green ;
+width: 100%;
+height: 20px;
+}
+
+.LineaGruesaVerde {
+    background-color: green;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.LineaGruesaVerde a { color: rgb(255, 255, 255);
+padding: 15px;
+margin: 0px;
+text-decoration: none;
+}
+
+.LineaGruesaVerde a:hover { 
+    background-color: rgb(0, 163, 0);
+}
+
+.Imagenescarrusel img{ 
+width: 300px;
+height: 300px;
+margin: 20px 50px
+}
+.Imagenescarrusel {
+display: flex;
+justify-content: center;
+}
+
+.Imagenpagos img {
+margin: 50px;
+width: 1200px;
+height: 100px;}
+.Imagenpagos {
+display: flex;
+justify-content:center;
+}
+
+h2 {
+font-size: 40px;
+color: rgb(4, 4, 100);
+text-align: center;
+margin: 30px;
+}
+
+.LogosObrasSociales {
+
+display: flex;
+justify-content:space-around;
+margin: 50px;
+}
+
+.LogosObrasSociales img { 
+width: 300px;
+}
+
+.LineaGruesaNaranja {
+    background-color:rgba(255, 174, 0, 0.733) ;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center; 
+ }
+
+ .LineaGruesaNaranja h2 {color: white;}
+    
+
+ .HistoriaFarmacia {
+    width: 60%;
+    margin: 50px 60px;
+    display: inline-block;
+ }
+
+     .Fotosfarmacia {
+        width: 20%;
+        margin: 60px;
+        display: inline-block;
+    }
+
+
+
+    .LogosObrasSociales {
+        display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    }
+
+.LogosObrasSociales img {
+width: 300px;
+padding: 50px;
+
+}
+
+
+.lineaTurnos {
+background-color:gray ;
+width: 80%;
+margin:30px auto;
+text-align: center;
+border-radius: 10px;
+border:solid 2px green } 
+
+.lineaTurnos h2 {color: white;}
+
+
+.terminosYCondiciones {
+    margin: 50px;
+}
+
