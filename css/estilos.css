@@ -14,14 +14,14 @@ body {
     }
 
 
-.LineaFinaVerde 
+.lineaFinaVerde 
 {
 background-color:green ;
 width: 100%;
 height: 20px;
 }
 
-.LineaGruesaVerde {
+.lineaGruesaVerde {
     background-color: green;
     width: 100%;
     margin: 0px;
@@ -29,31 +29,31 @@ height: 20px;
     justify-content: center;
 
 }
-.LineaGruesaVerde a { color: rgb(255, 255, 255);
+.lineaGruesaVerde a { color: rgb(255, 255, 255);
 padding: 15px;
 margin: 0px;
 text-decoration: none;
 }
 
-.LineaGruesaVerde a:hover { 
+.lineaGruesaVerde a:hover { 
     background-color: rgb(0, 163, 0);
 }
 
-.Imagenescarrusel img{ 
+.imagenescarrusel img{ 
 width: 300px;
 height: 300px;
 margin: 20px 50px
 }
-.Imagenescarrusel {
+.imagenescarrusel {
 display: flex;
 justify-content: center;
 }
 
-.Imagenpagos img {
+.imagenpagos img {
 margin: 50px;
 width: 1200px;
 height: 100px;}
-.Imagenpagos {
+.imagenpagos {
 display: flex;
 justify-content:center;
 }
@@ -65,18 +65,18 @@ text-align: center;
 margin: 30px;
 }
 
-.LogosObrasSociales {
+.logosObrasSociales {
 
 display: flex;
 justify-content:space-around;
 margin: 50px;
 }
 
-.LogosObrasSociales img { 
+.logosObrasSociales img { 
 width: 300px;
 }
 
-.LineaGruesaNaranja {
+.lineaGruesaNaranja {
     background-color:rgba(255, 174, 0, 0.733) ;
     width: 100%;
     margin: 0px;
@@ -84,16 +84,16 @@ width: 300px;
     justify-content: center; 
  }
 
- .LineaGruesaNaranja h2 {color: white;}
+ .lineaGruesaNaranja h2 {color: white;}
     
 
- .HistoriaFarmacia {
+ .historiaFarmacia {
     width: 60%;
     margin: 50px 60px;
     display: inline-block;
  }
 
-     .Fotosfarmacia {
+     .fotosfarmacia {
         width: 20%;
         margin: 60px;
         display: inline-block;
@@ -101,13 +101,13 @@ width: 300px;
 
 
 
-    .LogosObrasSociales {
+    .logosObrasSociales {
         display: flex;
     justify-content:space-around;
     list-style-type: none;
     }
 
-.LogosObrasSociales img {
+.logosObrasSociales img {
 width: 300px;
 padding: 50px;
 
