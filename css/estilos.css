@@ -3,7 +3,17 @@
     src: url('../fonts/Roboto-Regular.ttf') format("truetype");
 }
 
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    }
+    
+    .conteiner {
+        height: auto;
+        width: 100%;
+        background-color: white;
+        }
+         
 
 body {
     margin: 0px;
@@ -94,10 +104,14 @@ h2 {
     display: inline-block;
 }
 
-.fotosfarmacia {
+.fotosFarmacia {
     width: 20%;
     margin: 60px;
     display: inline-block;
+}
+
+.fotosFarmacia img {
+    width: 100%;
 }
 
 
