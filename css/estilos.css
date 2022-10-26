@@ -11,7 +11,6 @@
     .conteiner {
         height: auto;
         width: 100%;
-        background-color: white;
         }
          
 
@@ -21,13 +20,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.logoFarmacia {
-    width: 50%;
-    height: 100px;
-    min-width: 300px;
-    display: flex; 
-    margin: 20px;
-}
+.logoFarmacia img {
+    width: 100%;}
 
 .lineaFinaVerde {
     background-color: green;
@@ -149,7 +143,6 @@ h2 {
 
 
 .buttonTurno {
-    margin: 10px;
     padding: 10px;
     text-align: center;
     color: white;
@@ -204,4 +197,5 @@ h2 {
         #botonTurnoWeb {display: block;}
         #botonTurnoMobile {display:none}
     }
-    
+
+
