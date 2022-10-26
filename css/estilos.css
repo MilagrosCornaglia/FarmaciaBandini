@@ -149,14 +149,12 @@ h2 {
 
 
 .buttonTurno {
-    width: 150px;
-    height: 80px;
-    border-radius: 10px;
     margin: 10px;
     padding: 10px;
     text-align: center;
     color: white;
     background-color: red; }
+
 
 
 @keyframes anchoYAlto {
@@ -189,3 +187,21 @@ h2 {
         font-size:xx-large;
         text-align: center;
     }
+
+    #botonTurnoMobile {
+        width: 100%;
+        height: 40px;
+    }
+    
+    #botonTurnoWeb {
+        width: 150px;
+        height: 80px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    @media (min-width:800px) {
+        #botonTurnoWeb {display: block;}
+        #botonTurnoMobile {display:none}
+    }
+    
