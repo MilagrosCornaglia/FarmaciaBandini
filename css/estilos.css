@@ -21,7 +21,7 @@ body {
 }
 
 .logoFarmacia img {
-    width: 100%;}
+    width: 80%;}
 
 .lineaFinaVerde {
     background-color: green;
@@ -35,7 +35,8 @@ body {
     margin: 0px;
     display: flex;
     justify-content: center;
-
+    overflow-x: auto;
+    
 }
 
 .lineaGruesaVerde a {
@@ -51,9 +52,7 @@ body {
 
 
 .imagenpagos img {
-    margin: 50px;
-    width: 1200px;
-    height: 100px;
+    width: 90%;
 }
 
 .imagenpagos {
@@ -66,17 +65,6 @@ h2 {
     color: rgb(4, 4, 100);
     text-align: center;
     margin: 30px;
-}
-
-.logosObrasSociales {
-
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-}
-
-.logosObrasSociales img {
-    width: 300px;
 }
 
 .lineaGruesaNaranja {
@@ -100,12 +88,12 @@ h2 {
 
 .fotosFarmacia {
     width: 20%;
-    margin: 60px;
+    margin: 20px;
     display: inline-block;
 }
 
 .fotosFarmacia img {
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -114,11 +102,11 @@ h2 {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    width: 95%;
 }
 
 .logosObrasSociales img {
-    width: 300px;
-    padding: 50px;
+    width: 100%;
 
 }
 
